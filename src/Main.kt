@@ -1,6 +1,6 @@
 
 fun main() {
-    println("condicionales en Kotlin2")
+    println("2.Condicionales en Kotlin2")
     println("------------------------")
     println("Aqui empieza if")
     println(ift())
@@ -29,8 +29,9 @@ fun main() {
     println("Cómo convertir una sentencia when en una expresión")
     println(whent6())
     println("------------------------")
+
     println("------------------------")
-    println(" Como usar la nulabilidad en Kotlin3")
+    println("3.Como usar la nulabilidad en Kotlin")
     println("------------------------")
     println("Usa variables anulables")
     println(nulll())
@@ -67,6 +68,24 @@ fun main() {
     println("------------------------")
     println("Usa el operador Elvis ?:")
     println(iflelse4())
+    println("------------------------")
+    println("4.Usos de clases y objetops en kotlin")
+    println("------------------------")
+    println("Define métodos de clase")
+    println("------------------------")
+    println("Define las propiedades de la clase")
+    val smartTvDevice1 = SmartDevice1()
+    println("Device name is: ${smartTvDevice1.name}")
+    smartTvDevice1.turnOn()
+    smartTvDevice1.turnOff()
+    println("------------------------")
+    println("Funciones get y set en propiedades")
+    println("------------------------")
+    println(" Define un constructor")
+    println("------------------------")
+    println("Implementa una relación entre clases ")
+
+
 
 }
     fun ift() {
@@ -183,7 +202,6 @@ fun main() {
         var favoriteActor: String? = null
         println(favoriteActor?.length)
     }
-
     fun Nanull() {
         var favoriteActor: String? = "Sandra Oh"
         println(favoriteActor!!.length)
